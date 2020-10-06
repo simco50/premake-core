@@ -827,6 +827,8 @@
 ---
 -- FxCompile group
 ---
+
+--[[
 	m.categories.FxCompile = {
 		name	   = "FxCompile",
 		extensions = { ".hlsl" },
@@ -863,7 +865,7 @@
 			m.filterGroup(prj, group, "FxCompile")
 		end
 	}
-
+]]--
 
 ---
 -- None group
