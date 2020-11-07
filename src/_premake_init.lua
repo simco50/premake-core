@@ -165,6 +165,7 @@
 			"Pure",
 			"Safe",
 			"Unsafe",
+			"NetCore",
 		}
 	}
 
@@ -1409,6 +1410,15 @@
 		name = "assemblydebug",
 		scope = "config",
 		kind  = "boolean"
+	}
+
+	api.register {
+		name = "justmycode",
+		scope = "project",
+		kind = "string",
+		allowed = {
+			"Off"
+		}
 	}
 
 -----------------------------------------------------------------------------
